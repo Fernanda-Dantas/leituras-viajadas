@@ -1,8 +1,8 @@
 export default function initAnimaNumeros() {
     function animaNumeros() {
-        const numeros = document.querySelectorAll('[data-numero]');
+    const numeros = document.querySelectorAll('[data-numero]');
 
-        numeros.forEach((numero) => {
+    numeros.forEach((numero) => {
             const total = +numero.innerText;
             let start = 0;
             const incremento = Math.floor(total / 100)
@@ -16,7 +16,7 @@ export default function initAnimaNumeros() {
             }, 25 * Math.random());
             
         });
-    }   
+    }
 
     let observer;
     function handleMutation(mutation) {
@@ -30,6 +30,3 @@ export default function initAnimaNumeros() {
     observer = new MutationObserver(handleMutation);
     observer.observe(observerTarget, {attributes: true});
 }
-
-
-

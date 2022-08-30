@@ -33,6 +33,6 @@ function handleChange(event) {
 }
 
 contato.addEventListener('change', handleChange)
-console.log('teste');
+
 
 
