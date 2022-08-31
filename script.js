@@ -1,4 +1,4 @@
-import initScrollSuave from './modules/scroll-suave.js';
+import ScrollSuave from './modules/scroll-suave.js';
 import initAnimacaoScroll from './modules/scroll-animacao.js';
 import initAccordion from './modules/init-accordion.js';
 import initTabNav from './modules/tab-nav.js';
@@ -11,7 +11,9 @@ import initNumerosApi from './modules/fetch-numeros.js';
 
 
 
-initScrollSuave();
+const scrollSuave = new ScrollSuave('[data-tab="menu"] a[href^="#"]');
+scrollSuave.init();
+
 initAnimacaoScroll();
 initAccordion();
 initTabNav();
