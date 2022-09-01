@@ -9,7 +9,6 @@ export default class TabNav {
         this.tabContent.forEach((section) => {
             section.classList.remove(this.activeClass);
         });
-        // const direcao = this.tabContent[index].dataset.anime;
         this.tabContent[index].classList.add(this.activeClass);
     }
 
@@ -27,6 +26,7 @@ export default class TabNav {
             this.activeTab(0);
             this.addTabNavEvent();
         }
+        return this;
     }
 
 }
