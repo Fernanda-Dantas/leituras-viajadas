@@ -6,7 +6,7 @@ import Tooltip from './modules/initTooltip.js';
 import initDropDownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
-import initNumerosApi from './modules/fetch-numeros.js';
+import fetchNumeros from './modules/fetch-numeros.js';
 import initAnimacaoScroll from './modules/scroll-animacao.js';
 
 
@@ -29,7 +29,9 @@ tooltip.init();
 initDropDownMenu();
 initMenuMobile();
 initFuncionamento();
-initNumerosApi();
+
+fetchNumeros('../numerosapi.json', '.numeros-grid');
+
 initAnimacaoScroll();
 
 
