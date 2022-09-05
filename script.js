@@ -30,7 +30,7 @@ const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
 const dropdownMenu = new DropDownMenu('[data-dropdown]');
-dropdownMenu.initt();
+dropdownMenu.init();
 
 
 initMenuMobile();
