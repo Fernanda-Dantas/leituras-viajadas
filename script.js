@@ -7,7 +7,7 @@ import initDropDownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchNumeros from './modules/fetch-numeros.js';
-import initAnimacaoScroll from './modules/scroll-animacao.js';
+import ScrollAnima from './modules/scroll-anima.js';
 
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -25,14 +25,14 @@ modal.init();
 const tooltip = new Tooltip('[data-tooltip]');
 tooltip.init();
 
+const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
+scrollAnima.init();
 
 initDropDownMenu();
 initMenuMobile();
 initFuncionamento();
 
 fetchNumeros('../numerosapi.json', '.numeros-grid');
-
-initAnimacaoScroll();
 
 
 const contato = document.querySelector('#contato');
