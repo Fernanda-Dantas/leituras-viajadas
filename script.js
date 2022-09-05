@@ -3,11 +3,12 @@ import Accordion from './modules/init-accordion.js';
 import TabNav from './modules/tab-nav.js';
 import Modal from './modules/modal.js';
 import Tooltip from './modules/initTooltip.js';
-import initDropDownMenu from './modules/dropdown-menu.js';
+import DropDownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchNumeros from './modules/fetch-numeros.js';
 import ScrollAnima from './modules/scroll-anima.js';
+
 
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -28,7 +29,10 @@ tooltip.init();
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
-initDropDownMenu();
+const dropdownMenu = new DropDownMenu('[data-dropdown]');
+dropdownMenu.initt();
+
+
 initMenuMobile();
 initFuncionamento();
 
