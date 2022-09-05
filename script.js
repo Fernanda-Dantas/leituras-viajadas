@@ -44,7 +44,7 @@ function handleChange(event) {
     dados[event.target.name] = event.target.value
 }
 
-contato.addEventListener('change', handleChange)
+contato.addEventListener('change', handleChange);
 
 
 
