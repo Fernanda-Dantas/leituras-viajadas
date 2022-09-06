@@ -6,7 +6,7 @@ import Tooltip from './modules/initTooltip.js';
 import DropDownMenu from './modules/dropdown-menu.js';
 import MenuMobile from './modules/menu-mobile.js';
 import Funcionamento from './modules/funcionamento.js';
-import fetchNumeros from './modules/fetch-numeros.js';
+// import fetchNumeros from './modules/fetch-numeros.js';
 import ScrollAnima from './modules/scroll-anima.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -37,7 +37,7 @@ const funcionamento = new Funcionamento('[data-semana]', 'aberto');
 funcionamento.init();
 
 
-fetchNumeros('numerosapi.json', '.numeros-grid');
+// fetchNumeros('numerosapi.json', '.numeros-grid');
 
 
 const contato = document.querySelector('#contato');
