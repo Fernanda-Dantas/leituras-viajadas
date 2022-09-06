@@ -300,7 +300,7 @@ cursor: pointer;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .grid-container {
         grid-template-columns: 1fr;
 
