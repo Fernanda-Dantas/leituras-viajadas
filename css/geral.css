@@ -303,7 +303,6 @@ cursor: pointer;
 @media (max-width: 750px) {
     .grid-container {
         grid-template-columns: 1fr;
-
     }
     .menu, .grid-section, .copyright {
         grid-column: 1;
