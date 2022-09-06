@@ -9,7 +9,6 @@ import Funcionamento from './modules/funcionamento.js';
 import fetchNumeros from './modules/fetch-numeros.js';
 import ScrollAnima from './modules/scroll-anima.js';
 
-
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
@@ -36,7 +35,7 @@ menuMobile.init();
 
 const funcionamento = new Funcionamento('[data-semana]', 'aberto');
 funcionamento.init();
-console.log(funcionamento);
+
 
 fetchNumeros('../numerosapi.json', '.numeros-grid');
 
