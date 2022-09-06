@@ -37,7 +37,7 @@ const funcionamento = new Funcionamento('[data-semana]', 'aberto');
 funcionamento.init();
 
 
-fetchNumeros('https://fernanda-dantas.github.io/leituras-viajadas/numerosapi.json', '.numeros-grid');
+fetchNumeros('numerosapi.json', '.numeros-grid');
 
 
 const contato = document.querySelector('#contato');
