@@ -3,6 +3,7 @@ import outsideClick from './outsideclick.js';
 export default class DropDownMenu {
     constructor(dropdownMenus, events) {
         this.dropdownMenus = document.querySelectorAll(dropdownMenus);
+        
         // define os argumentos padrões de events
         // caso o usurário não defina
         if (events === undefined) {
@@ -10,6 +11,7 @@ export default class DropDownMenu {
         } else {
             this.events = events;
         }
+
         this.activeClass = 'ativo';
         this.activeDropdownMenu = this.activeDropdownMenu.bind(this);
     }   

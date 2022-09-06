@@ -4,11 +4,10 @@ import TabNav from './modules/tab-nav.js';
 import Modal from './modules/modal.js';
 import Tooltip from './modules/initTooltip.js';
 import DropDownMenu from './modules/dropdown-menu.js';
-import initMenuMobile from './modules/menu-mobile.js';
+import MenuMobile from './modules/menu-mobile.js';
 import initFuncionamento from './modules/funcionamento.js';
 import fetchNumeros from './modules/fetch-numeros.js';
 import ScrollAnima from './modules/scroll-anima.js';
-
 
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -32,8 +31,11 @@ scrollAnima.init();
 const dropdownMenu = new DropDownMenu('[data-dropdown]');
 dropdownMenu.init();
 
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="lista"]');
+menuMobile.init();
 
-initMenuMobile();
+
+
 initFuncionamento();
 
 fetchNumeros('../numerosapi.json', '.numeros-grid');
