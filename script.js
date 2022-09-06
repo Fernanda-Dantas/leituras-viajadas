@@ -5,7 +5,7 @@ import Modal from './modules/modal.js';
 import Tooltip from './modules/initTooltip.js';
 import DropDownMenu from './modules/dropdown-menu.js';
 import MenuMobile from './modules/menu-mobile.js';
-import initFuncionamento from './modules/funcionamento.js';
+import Funcionamento from './modules/funcionamento.js';
 import fetchNumeros from './modules/fetch-numeros.js';
 import ScrollAnima from './modules/scroll-anima.js';
 
@@ -34,9 +34,9 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="lista"]');
 menuMobile.init();
 
-
-
-initFuncionamento();
+const funcionamento = new Funcionamento('[data-semana]', 'aberto');
+funcionamento.init();
+console.log(funcionamento);
 
 fetchNumeros('../numerosapi.json', '.numeros-grid');
 
