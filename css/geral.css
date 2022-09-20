@@ -254,7 +254,7 @@ body {
 
 .js-accordion dd.ativar {
     display: block;
-    animation: slideDown .5s forwards
+    animation: slideDown .3s forwards;
 }
 
 
