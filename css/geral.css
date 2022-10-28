@@ -67,10 +67,21 @@ body {
 .titulo {
     font-family: 'Tiro Kannada', serif;
     color: #000000;
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    grid-column: 1/4;
+}
+
+.subtitulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: 300;
+    margin-bottom: 4rem;
     grid-column: 1/4;
 }
 
@@ -149,6 +160,12 @@ body {
 .texto-sugestao {
     grid-column: 1/4;
     font-family: 'Poppins', sans-serif;
+}
+
+.slide h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(103, 94, 94);
+    font-size: 1.0rem;
 }
 
 .faq-lista {
