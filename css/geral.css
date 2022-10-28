@@ -31,7 +31,7 @@ body {
     grid-column: 3/5;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background: #6C4D2E;
+    background: #000000;
 }
 
 .menu ul {
@@ -66,7 +66,7 @@ body {
 
 .titulo {
     font-family: 'Tiro Kannada', serif;
-    color: #453125;
+    color: #000000;
     font-size: 6rem;
     line-height: 1;
     font-weight: 400;
@@ -81,7 +81,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-bottom: 1rem;
-    color: #A6411C;
+    color: #000000;
 }
 
 .livros h2::before {
@@ -90,7 +90,7 @@ body {
     width: 40px;
     height: 10px;
     margin-right: 10px;
-    background: #A6411C;
+    background: #000000;
 }
 
 .livros p {
@@ -120,7 +120,7 @@ body {
 }
 
 .lugares-lista::-webkit-scrollbar-thumb {
-    background: #A6411C;
+    background: #000000;
     border-left: 4px solid #F2F2F2;
     border-right: 4px solid #F2F2F2;
 }
@@ -161,7 +161,7 @@ body {
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: .5rem;
-    color: #A6411C;
+    color: #000000;
 }
 
 .faq-lista dt::before {
@@ -170,7 +170,7 @@ body {
     width: 20px;
     height: 10px;
     margin-right: 10px;
-    background: #A6411C;
+    background: #000000;
 }
 
 .faq-lista dd {
@@ -198,13 +198,13 @@ body {
     width: 20px;
     height: 10px;
     margin-right: 10px;
-    background: #A6411C;
+    background: #000000;
 }
 
 .copyright {
     grid-column: 3/5;
     margin-bottom: 2rem;
-    background: #6C4D2E;
+    background: #000000;
 }
 
 .copyright p {
@@ -261,7 +261,7 @@ body {
 .botao-enviar {
     font-family: 'Tiro Kannada', serif;
     color: white;
-    background-color: #A6411C;
+    background-color: #000000;
     height: 44px;
     width: 96px;
     border: none;
@@ -275,7 +275,7 @@ font-family: 'Poppins', sans-serif;
 font-size: 1.3rem;
 width: 300px;
 height: 75px;
-background-color: #A6411C;
+background-color: #000000;
 color: rgb(255, 255, 255);
 border: none;
 grid-column: 3/4;
@@ -283,7 +283,7 @@ cursor: pointer;
 }
 
 .botao-teste:hover {
-    background-color: #D93D12;
+    background-color: #ffffff;
     color: black;
     font-weight: bold;
     transition: all 0.3s ease-in;
