@@ -35,7 +35,7 @@
     .js [data-menu="lista"] {
         display: none;
         position: absolute;
-        background: #6C4D2E;
+        background: #000000;
         width: 160px;
         z-index: 200;
         padding: 60px 0 20px 0;
