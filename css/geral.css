@@ -57,8 +57,8 @@ body {
     grid-column: 1/5;
     font-size: 15px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/projeto-final-javascript/img/inicio-site.jpg') ; 
-    height: 500px;
-    padding: 100px;
+    height: 600px;
+    width: 100%;
     background-size: cover; 
     margin-bottom: 5rem;
     display: flex;
@@ -68,10 +68,10 @@ body {
 }
 
 .inicio-site h3 {
-    margin-right: 200px;
+    padding: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    color: #000000;
+    color: white;
 }
 
 .botao{
@@ -79,8 +79,8 @@ body {
     font-family: 'Poppins', sans-serif;
     border: none;
     color: white;
-    padding: 15px 20px;
-    margin-right: 15px;
+    padding: 15px 25px;
+    margin: 25px;
     font-size: 15px;
     cursor: pointer;
     transition: .3s ease all
@@ -109,21 +109,8 @@ body {
     font-size: 5rem;
     line-height: 1;
     font-weight: 400;
-    margin-bottom: 5rem;
-    grid-column: 2/4;
-}
-
-.subtitulo {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: #000000;
-    font-size: 2.5rem;
-    line-height: 1;
-    font-weight: 300;
-    margin-bottom: 4rem;
     grid-column: 1/4;
 }
-
 
 .livros h2 {
     font-family: 'Poppins', sans-serif;
@@ -367,6 +354,17 @@ cursor: pointer;
         grid-template-columns: 100px 1fr;
         grid-gap: 10px;
     }
+    .inicio-site {
+        grid-column: 1;
+        background-position: center center;   
+    }
+    .inicio-site h3 {
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .botao {
+        margin: 10px;
+    }
     .lugares-lista {
         grid-column: 1;
     }
@@ -384,6 +382,9 @@ cursor: pointer;
     }
     .grid-section h1 {
         font-size: 3rem;
+    }
+    .galeria h1 {
+        font-size: 1rem;
     }
     .menu {
         margin-top: 0px;

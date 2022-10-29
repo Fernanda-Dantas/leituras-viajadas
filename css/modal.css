@@ -20,7 +20,7 @@
     max-width: 600px;
     background: #F2F2F2;
     padding: 40px;
-    border: 10px solid #63727e;
+    border: 10px solid #222;
     box-shadow: 0 0 0 10px #F2F2F2;
     position: relative;
     box-sizing: border-box;
@@ -49,7 +49,7 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
     top: -30px;
     position: absolute;
-    background: #A6411C;
+    background: black;
     right: -30px;
     font-size: 1.2rem;
     color: white;
@@ -74,7 +74,7 @@
 
 .modal button[type="submit"] {
     display: block;
-    background-color: #A6411C;
+    background-color: black;
     border: none;
     border-radius: 4px;
     padding: .7rem 2rem;
