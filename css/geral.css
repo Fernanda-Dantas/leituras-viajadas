@@ -287,12 +287,12 @@ body {
 }
 
 .js-accordion dt::after {
-    content: '⮟';
+    content: '▼';
     margin-left: 10px;
 }
 
 .js-accordion dt.ativar::after {
-    content: '⮝';
+    content: '▲';
 }
 
 .js-accordion dd.ativar {
